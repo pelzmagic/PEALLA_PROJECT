@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--main-color);
+    padding: 0.5rem 3rem 0.5rem 1rem;
+}
+
+.bxl-trello, .bx-log-out {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.bx-log-out {
+    cursor: pointer;
+    margin-right: 20px;
+}

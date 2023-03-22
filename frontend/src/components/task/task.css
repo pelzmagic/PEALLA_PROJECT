@@ -1,0 +1,60 @@
+.task-container {
+    max-width: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+.task-content {
+    padding: 20px;
+    background: #170722;
+    border-radius: 8px;
+    height: 90vh;
+    overflow-y: auto;
+}
+
+.task-title {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    width: max-content;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+    font-weight: 700;
+}
+
+.to-do {
+    color: #E2E8F0;
+    background: rgba(226, 232, 240, 0.16)
+}
+
+.in-progress {
+    color: #90cdf4;
+    background: rgba(144, 205, 244, 0.16);
+}
+
+.completed {
+    color: #9AE6B4;
+    background: rgba(154, 230, 180, 0.16);
+}
+
+.add {
+    background: #2D3748;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #A0AEC0;
+    font-size: 1rem;
+    font-weight: semibold;
+}
+
+@media screen and (max-width: 768px) {
+    .task-container {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .task-content {
+        height: 60vh;
+        display: flex;
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,12 @@
+.main-container {
+    background: #2F0D44;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+}

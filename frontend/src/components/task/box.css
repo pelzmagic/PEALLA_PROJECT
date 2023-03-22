@@ -1,0 +1,46 @@
+.box {
+    max-width: 250px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    background: #4FD1C5;
+    box-shadow: rgba(11, 16, 21, 0.2) 0px 8px 24px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.bxs-trash {
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    font-size: 1rem;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.show-trash {
+    opacity: 1;
+}
+
+.box textarea {
+    resize: none;
+    font-weight: bold;
+    border: none;
+    background: inherit;
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        max-width: 220px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bxs-trash {
+        top: 6px;
+        right: 8px;
+        font-size: 1.5rem;
+    }
+}

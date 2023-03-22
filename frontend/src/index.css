@@ -1,0 +1,39 @@
+:root {
+  --main-color: #8359E3
+}
+
+*, *::before, *::after  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Inter', sans-serif;
+}
+  
+a {
+  color: inherit;
+  text-decoration: none;
+}
+  
+li { list-style: none; }
+  
+img, picture, video, canvas, svg {
+  display: block;
+}
+  
+input, button, textarea, select, address {
+  font: inherit;
+}
+  
+button {
+  cursor: pointer;
+  border: none;
+}
+  
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}

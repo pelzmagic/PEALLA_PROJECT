@@ -1,0 +1,124 @@
+.login {
+    max-width: 540px;
+    padding: 20px;
+    margin: 50px auto 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background:  white;
+}
+
+.login-title, .login-subtitle {
+    text-align: center;
+    font-weight: 700;
+}
+
+.login-title {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.login-subtitle {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.login-form > div { margin-bottom: 18px; }
+
+.login-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.login-input {
+    width: 100%;
+    border-radius: 8px;
+    background: #dfdfe0;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    text-indent: 6px;
+}
+
+.login-input::placeholder { font-size: 13px; }
+
+.login-input:focus {
+    outline: none;
+    border: 1px solid #997ddd;
+}
+
+.password-box  { position: relative; }
+
+.uil-eye, .uil-eye-slash {
+    position: absolute;
+    font-size: 18px;
+    top: 12px;
+    right: 10px;
+}
+
+.login-form div:last-child { margin-bottom: 10px; }
+
+.login-form p {
+    width: max-content;
+    margin-left: auto;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.login-btn {
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    background: #8359E3;
+    color: white;
+}
+
+.login-btn:hover { background: #997ddd; }
+
+.login footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.login footer small span { font-weight: 700; }
+
+@media screen and (max-width: 375px) {
+    .login {
+        margin-top: 25px;
+        padding: 18px;
+    }
+
+    .login-title {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+
+    .login-subtitle {
+        font-size: 1.8rem;
+        margin-bottom: 25px;
+    }
+
+    .login-label { font-size: 12px; }
+
+    .login-input {
+        padding: 9px;
+        font-size: 12px;
+    }
+
+    .login-input::placeholder { font-size: 12px; }
+
+    .uil-eye, .uil-eye-slash { font-size: 14px; }
+
+    .login-form div:last-child { margin-bottom: 8px; }
+
+    .login-form p {
+        font-size: 12px;
+        margin-bottom: 22px;
+    }
+
+    .login-btn {
+        padding: 9px;
+        font-size: 12px;
+    }
+
+    .login-form > div { margin-bottom: 15px; }
+}
