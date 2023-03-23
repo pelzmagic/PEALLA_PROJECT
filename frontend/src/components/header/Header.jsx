@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <nav className='header'>
         <Link to="/"><i className='bx bxl-trello'></i></Link>
-        <h1>Trello Clone</h1>
+        <h1>PEALLA</h1>
         <Link to='/'><i className='bx bx-log-out' onClick={handleLogOut}></i></Link>
     </nav>
   )
