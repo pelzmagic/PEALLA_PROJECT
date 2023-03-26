@@ -1,7 +1,7 @@
 .login {
     max-width: 540px;
-    padding: 20px;
-    margin: 50px auto 0;
+    padding: 28px;
+    margin: 20px auto 0;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background:  white;
 }
@@ -29,6 +29,12 @@
     font-weight: 400;
 }
 
+.user-not-found, .password-incorrect {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
 .login-input {
     width: 100%;
     border-radius: 8px;
@@ -37,13 +43,14 @@
     padding: 10px;
     margin-top: 5px;
     text-indent: 6px;
+    font-size: 0.8rem;
 }
 
 .login-input::placeholder { font-size: 13px; }
 
 .login-input:focus {
     outline: none;
-    border: 1px solid #997ddd;
+    border: 1px solid var(--greenish-2);
 }
 
 .password-box  { position: relative; }
@@ -68,11 +75,11 @@
     width: 100%;
     border-radius: 8px;
     padding: 10px;
-    background: #8359E3;
+    background: var(--greenish-1);
     color: white;
 }
 
-.login-btn:hover { background: #997ddd; }
+.login-btn:hover { background: var(--greenish-2); }
 
 .login footer {
     margin-top: 40px;

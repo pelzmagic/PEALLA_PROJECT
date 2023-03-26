@@ -1,4 +1,3 @@
-import React from 'react'
 import { Routes, Route } from 'react-router-dom';
 import Signup from '../pages/signup/Signup';
 import Login from '../pages/login/Login';

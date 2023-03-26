@@ -1,12 +1,41 @@
 .main-container {
     background: #2F0D44;
+    min-height: 90vh;
+    min-width: 100%;
+    overflow-x: auto;
+    gap: 2rem;
+}
+
+.main-content {
+    margin-top: 15px;
     padding: 2rem;
     display: flex;
     gap: 1rem;
 }
 
-@media screen and (max-width: 768px) {
-    .main-container {
+.add-list {
+    background: #5B3646;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #A0DEC0;
+    font-size: 1rem;
+    font-weight: semibold;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    box-shadow: rgb(1, 12, 22) 0px 8px 24px;
+}
+
+@media screen and (max-width: 875px) {
+    .main-content {
         flex-direction: column;
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .main-content {
+        padding: 0.8rem;
+        gap: 2rem;
     }
 }

@@ -1,5 +1,6 @@
 :root {
-  --main-color: #8359E3
+  --greenish-1: hsl(98, 65%, 55%);
+  --greenish-2: hsl(98, 40%, 58%);
 }
 
 *, *::before, *::after  {
@@ -11,7 +12,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Arvo', serif;
 }
   
 a {
@@ -37,3 +38,7 @@ button {
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
+  
+/* ::selection {
+  
+} */
