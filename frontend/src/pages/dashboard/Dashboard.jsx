@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react"
-import Header from "../../components/header/Header"
-import Container from "../../components/container/Container"
-import Login from "../login/Login"
+import { useState, useEffect } from 'react'
+import Header from '../../components/header/Header'
+import Container from '../../components/container/Container'
+import Login from '../login/Login'
 
 export default function Dashboard() {
   const [userToken, setUserToken] = useState(null)
@@ -9,13 +9,13 @@ export default function Dashboard() {
   useEffect(() => {
     const token = sessionStorage.getItem('token')
     const currentUser = sessionStorage.getItem('user')
-    setUser(JSON.parse(currentuser))
+    setUser(JSON.parse(currentUser))
     setUserToken(JSON.parse(token))
   }, [userToken])
 
   if (!userToken) return <Login />
   return (
-    <div className="dashboard">
+    <div className='dashboard'>
       <Header user={user} />
       <Container />
     </div>
