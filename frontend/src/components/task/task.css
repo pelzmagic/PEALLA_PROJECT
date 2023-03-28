@@ -1,11 +1,11 @@
 .task-container { text-align: center; }
 
 .task-content {
-    min-width: 270px;
+    min-width: 250px;
     padding: 20px;
-    background: #170722;
-    border-radius: 8px;
-    height: 90vh;
+    background: #261a0d;
+    border-radius: 10px;
+    height: 80vh;
     overflow-y: auto;
 }
 
@@ -31,8 +31,8 @@
 .task-title .input {
     outline: none;
     border: none;
-    color: #9AE6B4;
-    background: rgba(154, 230, 180, 0.16);
+    color: white;
+    background:#261a0d;
 }
 
 .task-title .input::placeholder { color: #9AE6B4; }
@@ -42,8 +42,8 @@
     margin-bottom: 20px;
     cursor: pointer;
     border-radius: 6px;
-    color: #A0AEC0;
-    font-size: 1rem;
+    color: whitesmoke;
+    font-size: 1.2rem;
     font-weight: semibold;
 }
 

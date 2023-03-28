@@ -92,7 +92,7 @@ export default function Container() {
   return (
     <main className="main-container">
         <div className="add-list" onClick={handleAddList}>
-            Add List
+            NEW
         </div>
         <div className="main-content">
           {lists.map(list => {

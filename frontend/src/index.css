@@ -1,7 +1,7 @@
-:root {
+/* :root {
   --greenish-1: hsl(98, 65%, 55%);
   --greenish-2: hsl(98, 40%, 58%);
-}
+} */
 
 *, *::before, *::after  {
   margin: 0;
@@ -13,6 +13,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: 'Arvo', serif;
+  background:#334d4d;
 }
   
 a {
@@ -38,7 +39,5 @@ button {
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
-  
-/* ::selection {
-  
-} */
+
+.section-title, .section-subtitle { text-align: center; }

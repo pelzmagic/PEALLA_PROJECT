@@ -1,5 +1,5 @@
 .main-container {
-    background: #003300;
+    background: #8c8c8c; 
     min-height: 90vh;
     min-width: 100%;
     overflow-x: auto;
@@ -7,23 +7,28 @@
 }
 
 .main-content {
-    margin-top: 15px;
+    margin-top: 12px;
     padding: 2rem;
     display: flex;
     gap: 1rem;
 }
 
 .add-list {
-    background: #5B3646;
+    background: #b38600;
     cursor: pointer;
-    border-radius: 6px;
-    color: #A0DEC0;
-    font-size: 1rem;
-    font-weight: semibold;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
     text-align: center;
-    width: 35%;
-    margin: auto;
+    width: 15%;
+    margin-left:1010px;
+    margin-top: 12px;
     box-shadow: rgb(1, 12, 22) 0px 8px 24px;
+}
+.add-list:hover{
+    background: #f2f2f2;
+    color: black;
 }
 
 @media screen and (max-width: 875px) {

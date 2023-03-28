@@ -1,22 +1,23 @@
 .login {
-    max-width: 540px;
+    max-width: 400px;
     padding: 28px;
-    margin: 20px auto 0;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 80px auto 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     background:  white;
+    border-radius: 20px;
 }
 
-.login-title, .login-subtitle {
+.section-title, .section-subtitle {
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
 }
 
-.login-title {
+.section-title {
     font-size: 3rem;
     margin-bottom: 40px;
 }
 
-.login-subtitle {
+.section-subtitle {
     font-size: 2rem;
     margin-bottom: 30px;
 }
@@ -25,7 +26,7 @@
 
 .login-label {
     display: block;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
 }
 
@@ -43,21 +44,21 @@
     padding: 10px;
     margin-top: 5px;
     text-indent: 6px;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
 }
 
-.login-input::placeholder { font-size: 13px; }
+.login-input::placeholder { font-size: 15px; }
 
 .login-input:focus {
     outline: none;
     border: 1px solid var(--greenish-2);
 }
 
-.password-box  { position: relative; }
+.password-box { position: relative; }
 
 .uil-eye, .uil-eye-slash {
     position: absolute;
-    font-size: 18px;
+    font-size: 16px;
     top: 12px;
     right: 10px;
 }
@@ -71,15 +72,17 @@
     font-size: 14px;
 }
 
+.login-form .forgot__psw { font-size: 12px; }
+
 .login-btn {
     width: 100%;
     border-radius: 8px;
     padding: 10px;
-    background: var(--greenish-1);
+    background: #669999;
     color: white;
 }
 
-.login-btn:hover { background: var(--greenish-2); }
+.login-btn:hover { background: #334d4d; }
 
 .login footer {
     margin-top: 40px;
@@ -94,12 +97,12 @@
         padding: 18px;
     }
 
-    .login-title {
+    .section-title {
         font-size: 2.5rem;
         margin-bottom: 30px;
     }
 
-    .login-subtitle {
+    .section-subtitle {
         font-size: 1.8rem;
         margin-bottom: 25px;
     }
